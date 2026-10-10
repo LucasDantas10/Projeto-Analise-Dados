@@ -1,0 +1,201 @@
+id_venda,data,produto,categoria,regiao,quantidade,preco_unitario
+1,2025-01-08,X-Burger,Lanche,Oeste,2,24.9
+2,2025-02-15,Refrigerante,Bebida,Sul,3,6.9
+3,2025-03-22,Milkshake,Sobremesa,Centro,4,16.9
+4,2025-04-02,Batata frita,Acompanhamento,Leste,1,12.5
+5,2025-05-09,X-Bacon,Lanche,Norte,2,29.9
+6,2025-06-16,Suco natural,Bebida,Oeste,3,8.5
+7,2025-07-23,Brownie,Sobremesa,Sul,4,12.9
+8,2025-08-03,Onion rings,Acompanhamento,Centro,1,14.5
+9,2025-09-10,Veggie,Lanche,Leste,2,27.5
+10,2025-10-17,Água,Bebida,Norte,3,4.5
+11,2025-11-24,Sundae,Sobremesa,Oeste,4,11.9
+12,2025-12-04,Nuggets,Acompanhamento,Sul,1,15.9
+13,2025-01-11,X-Burger,Lanche,Centro,2,24.9
+14,2025-02-18,Refrigerante,Bebida,Leste,3,6.9
+15,2025-03-25,Milkshake,Sobremesa,Norte,4,16.9
+16,2025-04-05,Batata frita,Acompanhamento,Oeste,1,12.5
+17,2025-05-12,X-Bacon,Lanche,Sul,2,29.9
+18,2025-06-19,Suco natural,Bebida,Centro,3,8.5
+19,2025-07-26,Brownie,Sobremesa,Leste,4,12.9
+20,2025-08-06,Onion rings,Acompanhamento,Norte,1,14.5
+21,2025-09-13,Veggie,Lanche,Oeste,2,27.5
+22,2025-10-20,Água,Bebida,Sul,3,4.5
+23,2025-11-27,Sundae,Sobremesa,Centro,4,11.9
+24,2025-12-07,Nuggets,Acompanhamento,Leste,1,15.9
+25,2025-01-14,X-Burger,Lanche,Norte,2,24.9
+26,2025-02-21,Refrigerante,Bebida,Oeste,3,6.9
+27,2025-03-01,Milkshake,Sobremesa,Sul,4,16.9
+28,2025-04-08,Batata frita,Acompanhamento,Centro,1,12.5
+29,2025-05-15,X-Bacon,Lanche,Leste,2,29.9
+30,2025-06-22,Suco natural,Bebida,Norte,3,8.5
+31,2025-07-02,Brownie,Sobremesa,Oeste,4,12.9
+32,2025-08-09,Onion rings,Acompanhamento,Sul,1,14.5
+33,2025-09-16,Veggie,Lanche,Centro,2,27.5
+34,2025-10-23,Água,Bebida,Leste,3,4.5
+35,2025-11-03,Sundae,Sobremesa,Norte,4,11.9
+36,2025-12-10,Nuggets,Acompanhamento,Oeste,1,15.9
+37,2025-01-17,X-Burger,Lanche,Sul,2,24.9
+38,2025-02-24,Refrigerante,Bebida,Centro,3,6.9
+39,2025-03-04,Milkshake,Sobremesa,Leste,4,16.9
+40,2025-04-11,Batata frita,Acompanhamento,Norte,1,12.5
+41,2025-05-18,X-Bacon,Lanche,Oeste,2,29.9
+42,2025-06-25,Suco natural,Bebida,Sul,3,8.5
+43,2025-07-05,Brownie,Sobremesa,Centro,4,12.9
+44,2025-08-12,Onion rings,Acompanhamento,Leste,1,14.5
+45,2025-09-19,Veggie,Lanche,Norte,2,27.5
+46,2025-10-26,Água,Bebida,Oeste,3,4.5
+47,2025-11-06,Sundae,Sobremesa,Sul,4,11.9
+48,2025-12-13,Nuggets,Acompanhamento,Centro,1,15.9
+49,2025-01-20,X-Burger,Lanche,Leste,2,24.9
+50,2025-02-27,Refrigerante,Bebida,Norte,3,6.9
+51,2025-03-07,Milkshake,Sobremesa,Oeste,4,16.9
+52,2025-04-14,Batata frita,Acompanhamento,Sul,1,12.5
+53,2025-05-21,X-Bacon,Lanche,Centro,2,29.9
+54,2025-06-01,Suco natural,Bebida,Leste,3,8.5
+55,2025-07-08,Brownie,Sobremesa,Norte,4,12.9
+56,2025-08-15,Onion rings,Acompanhamento,Oeste,1,14.5
+57,2025-09-22,Veggie,Lanche,Sul,2,27.5
+58,2025-10-02,Água,Bebida,Centro,3,4.5
+59,2025-11-09,Sundae,Sobremesa,Leste,4,11.9
+60,2025-12-16,Nuggets,Acompanhamento,Norte,1,15.9
+61,2025-01-23,X-Burger,Lanche,Oeste,2,24.9
+62,2025-02-03,Refrigerante,Bebida,Sul,3,6.9
+63,2025-03-10,Milkshake,Sobremesa,Centro,4,16.9
+64,2025-04-17,Batata frita,Acompanhamento,Leste,1,12.5
+65,2025-05-24,X-Bacon,Lanche,Norte,2,29.9
+66,2025-06-04,Suco natural,Bebida,Oeste,3,8.5
+67,2025-07-11,Brownie,Sobremesa,Sul,4,12.9
+68,2025-08-18,Onion rings,Acompanhamento,Centro,1,14.5
+69,2025-09-25,Veggie,Lanche,Leste,2,27.5
+70,2025-10-05,Água,Bebida,Norte,3,4.5
+71,2025-11-12,Sundae,Sobremesa,Oeste,4,11.9
+72,2025-12-19,Nuggets,Acompanhamento,Sul,1,15.9
+73,2025-01-26,X-Burger,Lanche,Centro,2,24.9
+74,2025-02-06,Refrigerante,Bebida,Leste,3,6.9
+75,2025-03-13,Milkshake,Sobremesa,Norte,4,16.9
+76,2025-04-20,Batata frita,Acompanhamento,Oeste,1,12.5
+77,2025-05-27,X-Bacon,Lanche,Sul,2,29.9
+78,2025-06-07,Suco natural,Bebida,Centro,3,8.5
+79,2025-07-14,Brownie,Sobremesa,Leste,4,12.9
+80,2025-08-21,Onion rings,Acompanhamento,Norte,1,14.5
+81,2025-09-01,Veggie,Lanche,Oeste,2,27.5
+82,2025-10-08,Água,Bebida,Sul,3,4.5
+83,2025-11-15,Sundae,Sobremesa,Centro,4,11.9
+84,2025-12-22,Nuggets,Acompanhamento,Leste,1,15.9
+85,2025-01-02,X-Burger,Lanche,Norte,2,24.9
+86,2025-02-09,Refrigerante,Bebida,Oeste,3,6.9
+87,2025-03-16,Milkshake,Sobremesa,Sul,4,16.9
+88,2025-04-23,Batata frita,Acompanhamento,Centro,1,12.5
+89,2025-05-03,X-Bacon,Lanche,Leste,2,29.9
+90,2025-06-10,Suco natural,Bebida,Norte,3,8.5
+91,2025-07-17,Brownie,Sobremesa,Oeste,4,12.9
+92,2025-08-24,Onion rings,Acompanhamento,Sul,1,14.5
+93,2025-09-04,Veggie,Lanche,Centro,2,27.5
+94,2025-10-11,Água,Bebida,Leste,3,4.5
+95,2025-11-18,Sundae,Sobremesa,Norte,4,11.9
+96,2025-12-25,Nuggets,Acompanhamento,Oeste,1,15.9
+97,2025-01-05,X-Burger,Lanche,Sul,2,24.9
+98,2025-02-12,Refrigerante,Bebida,Centro,3,6.9
+99,2025-03-19,Milkshake,Sobremesa,Leste,4,16.9
+100,2025-04-26,Batata frita,Acompanhamento,Norte,1,12.5
+101,2025-05-06,X-Bacon,Lanche,Oeste,2,29.9
+102,2025-06-13,Suco natural,Bebida,Sul,3,8.5
+103,2025-07-20,Brownie,Sobremesa,Centro,4,12.9
+104,2025-08-27,Onion rings,Acompanhamento,Leste,1,14.5
+105,2025-09-07,Veggie,Lanche,Norte,2,27.5
+106,2025-10-14,Água,Bebida,Oeste,3,4.5
+107,2025-11-21,Sundae,Sobremesa,Sul,4,11.9
+108,2025-12-01,Nuggets,Acompanhamento,Centro,1,15.9
+109,2025-01-08,X-Burger,Lanche,Leste,2,24.9
+110,2025-02-15,Refrigerante,Bebida,Norte,3,6.9
+111,2025-03-22,Milkshake,Sobremesa,Oeste,4,16.9
+112,2025-04-02,Batata frita,Acompanhamento,Sul,1,12.5
+113,2025-05-09,X-Bacon,Lanche,Centro,2,29.9
+114,2025-06-16,Suco natural,Bebida,Leste,3,8.5
+115,2025-07-23,Brownie,Sobremesa,Norte,4,12.9
+116,2025-08-03,Onion rings,Acompanhamento,Oeste,1,14.5
+117,2025-09-10,Veggie,Lanche,Sul,2,27.5
+118,2025-10-17,Água,Bebida,Centro,3,4.5
+119,2025-11-24,Sundae,Sobremesa,Leste,4,11.9
+120,2025-12-04,Nuggets,Acompanhamento,Norte,1,15.9
+121,2025-01-11,X-Burger,Lanche,Oeste,2,24.9
+122,2025-02-18,Refrigerante,Bebida,Sul,3,6.9
+123,2025-03-25,Milkshake,Sobremesa,Centro,4,16.9
+124,2025-04-05,Batata frita,Acompanhamento,Leste,1,12.5
+125,2025-05-12,X-Bacon,Lanche,Norte,2,29.9
+126,2025-06-19,Suco natural,Bebida,Oeste,3,8.5
+127,2025-07-26,Brownie,Sobremesa,Sul,4,12.9
+128,2025-08-06,Onion rings,Acompanhamento,Centro,1,14.5
+129,2025-09-13,Veggie,Lanche,Leste,2,27.5
+130,2025-10-20,Água,Bebida,Norte,3,4.5
+131,2025-11-27,Sundae,Sobremesa,Oeste,4,11.9
+132,2025-12-07,Nuggets,Acompanhamento,Sul,1,15.9
+133,2025-01-14,X-Burger,Lanche,Centro,2,24.9
+134,2025-02-21,Refrigerante,Bebida,Leste,3,6.9
+135,2025-03-01,Milkshake,Sobremesa,Norte,4,16.9
+136,2025-04-08,Batata frita,Acompanhamento,Oeste,1,12.5
+137,2025-05-15,X-Bacon,Lanche,Sul,2,29.9
+138,2025-06-22,Suco natural,Bebida,Centro,3,8.5
+139,2025-07-02,Brownie,Sobremesa,Leste,4,12.9
+140,2025-08-09,Onion rings,Acompanhamento,Norte,1,14.5
+141,2025-09-16,Veggie,Lanche,Oeste,2,27.5
+142,2025-10-23,Água,Bebida,Sul,3,4.5
+143,2025-11-03,Sundae,Sobremesa,Centro,4,11.9
+144,2025-12-10,Nuggets,Acompanhamento,Leste,1,15.9
+145,2025-01-17,X-Burger,Lanche,Norte,2,24.9
+146,2025-02-24,Refrigerante,Bebida,Oeste,3,6.9
+147,2025-03-04,Milkshake,Sobremesa,Sul,4,16.9
+148,2025-04-11,Batata frita,Acompanhamento,Centro,1,12.5
+149,2025-05-18,X-Bacon,Lanche,Leste,2,29.9
+150,2025-06-25,Suco natural,Bebida,Norte,3,8.5
+151,2025-07-05,Brownie,Sobremesa,Oeste,4,12.9
+152,2025-08-12,Onion rings,Acompanhamento,Sul,1,14.5
+153,2025-09-19,Veggie,Lanche,Centro,2,27.5
+154,2025-10-26,Água,Bebida,Leste,3,4.5
+155,2025-11-06,Sundae,Sobremesa,Norte,4,11.9
+156,2025-12-13,Nuggets,Acompanhamento,Oeste,1,15.9
+157,2025-01-20,X-Burger,Lanche,Sul,2,24.9
+158,2025-02-27,Refrigerante,Bebida,Centro,3,6.9
+159,2025-03-07,Milkshake,Sobremesa,Leste,4,16.9
+160,2025-04-14,Batata frita,Acompanhamento,Norte,1,12.5
+161,2025-05-21,X-Bacon,Lanche,Oeste,2,29.9
+162,2025-06-01,Suco natural,Bebida,Sul,3,8.5
+163,2025-07-08,Brownie,Sobremesa,Centro,4,12.9
+164,2025-08-15,Onion rings,Acompanhamento,Leste,1,14.5
+165,2025-09-22,Veggie,Lanche,Norte,2,27.5
+166,2025-10-02,Água,Bebida,Oeste,3,4.5
+167,2025-11-09,Sundae,Sobremesa,Sul,4,11.9
+168,2025-12-16,Nuggets,Acompanhamento,Centro,1,15.9
+169,2025-01-23,X-Burger,Lanche,Leste,2,24.9
+170,2025-02-03,Refrigerante,Bebida,Norte,3,6.9
+171,2025-03-10,Milkshake,Sobremesa,Oeste,4,16.9
+172,2025-04-17,Batata frita,Acompanhamento,Sul,1,12.5
+173,2025-05-24,X-Bacon,Lanche,Centro,2,29.9
+174,2025-06-04,Suco natural,Bebida,Leste,3,8.5
+175,2025-07-11,Brownie,Sobremesa,Norte,4,12.9
+176,2025-08-18,Onion rings,Acompanhamento,Oeste,1,14.5
+177,2025-09-25,Veggie,Lanche,Sul,2,27.5
+178,2025-10-05,Água,Bebida,Centro,3,4.5
+179,2025-11-12,Sundae,Sobremesa,Leste,4,11.9
+180,2025-12-19,Nuggets,Acompanhamento,Norte,1,15.9
+181,2025-01-26,X-Burger,Lanche,Oeste,2,24.9
+182,2025-02-06,Refrigerante,Bebida,Sul,3,6.9
+183,2025-03-13,Milkshake,Sobremesa,Centro,4,16.9
+184,2025-04-20,Batata frita,Acompanhamento,Leste,1,12.5
+185,2025-05-27,X-Bacon,Lanche,Norte,2,29.9
+186,2025-06-07,Suco natural,Bebida,Oeste,3,8.5
+187,2025-07-14,Brownie,Sobremesa,Sul,4,12.9
+188,2025-08-21,Onion rings,Acompanhamento,Centro,1,14.5
+189,2025-09-01,Veggie,Lanche,Leste,2,27.5
+190,2025-10-08,Água,Bebida,Norte,3,4.5
+191,2025-11-15,Sundae,Sobremesa,Oeste,4,11.9
+192,2025-12-22,Nuggets,Acompanhamento,Sul,1,15.9
+193,2025-01-02,X-Burger,Lanche,Centro,2,24.9
+194,2025-02-09,Refrigerante,Bebida,Leste,3,6.9
+195,2025-03-16,Milkshake,Sobremesa,Norte,4,16.9
+196,2025-04-23,Batata frita,Acompanhamento,Oeste,1,12.5
+197,2025-05-03,X-Bacon,Lanche,Sul,2,29.9
+198,2025-06-10,Suco natural,Bebida,Centro,3,8.5
+199,2025-07-17,Brownie,Sobremesa,Leste,4,12.9
+200,2025-08-24,Onion rings,Acompanhamento,Norte,1,14.5

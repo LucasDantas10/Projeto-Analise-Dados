@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Radar de vendas | Hamburgueria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section id="loginScreen" class="login-screen" aria-labelledby="loginTitle">
+    <div class="login-visual"><div class="burger-video" aria-hidden="true"><span class="steam steam-a"></span><span class="steam steam-b"></span><span class="steam steam-c"></span><span class="video-caption">feito na brasa <b>●</b></span></div><div class="visual-overlay"><span class="mini-brand">BRASA &amp; DADOS</span><h1>Vendas que dão água na boca.</h1><p>Entre para acompanhar o desempenho da sua hamburgueria em um só lugar.</p><div class="visual-stats"><span><strong>+24%</strong> receita média</span><span><strong>12</strong> meses analisados</span></div></div></div>
+    <div class="login-card"><div class="login-logo">🍔</div><p class="eyebrow">PAINEL DE GESTÃO</p><h2 id="loginTitle">Bem-vindo de volta</h2><p class="login-subtitle">Acesse seu radar de vendas</p><form id="loginForm"><label>E-mail<input id="loginEmail" type="email" value="aluno@demo.com" placeholder="voce@exemplo.com" autocomplete="username" required></label><label>Senha<div class="password-wrap"><input id="loginPassword" type="password" value="hamburguer" placeholder="Digite sua senha" autocomplete="current-password" required><button id="togglePassword" type="button" aria-label="Mostrar senha">◉</button></div></label><div class="login-options"><span>Login demonstrativo local</span></div><button class="login-submit" type="submit">Entrar no dashboard <span>→</span></button><p id="loginMessage" class="login-message" role="alert"></p></form><p class="demo-hint">Acesso de demonstração: <strong>aluno@demo.com</strong> / <strong>hamburguer</strong></p></div>
+  </section>
+  <main id="dashboardApp" class="container" hidden>
+    <header class="hero">
+      <div><p class="eyebrow">FUNDAMENTOS DE IA E ANÁLISE DE DADOS</p><h1>Radar de vendas</h1><p class="subtitle">Explore faturamento, produtos e regiões com filtros simples.</p></div>
+      <button id="logoutButton" class="logout-button" type="button">Sair <span>↗</span></button>
+      <div class="source-badge" id="sourceBadge">● Dados demonstrativos</div>
+    </header>
+    <section class="burger-lab" aria-label="Vitrine interativa de produtos">
+      <div class="lab-heading"><div><span class="lab-kicker">LABORATÓRIO DE SABORES</span><h2>Escolha seu protagonista</h2><p>Passe o mouse pelos hambúrgueres. Clique em um deles para investigar suas vendas.</p></div><div class="lab-actions"><button id="surpriseBurger" type="button" class="surprise-button">✦ Surpreenda-me</button><span class="lab-live"><i></i> interação ao vivo</span></div></div>
+      <div class="burger-stage">
+        <article class="burger-card" data-product="X-Burger"><div class="card-glow"></div><div class="burger-image" style="background-image:url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=85')"></div><div class="burger-info"><span class="burger-tag">CLÁSSICO</span><h3>X-Burger</h3><p>Pão brioche · queijo cremoso · molho da casa</p><button type="button">Ver análise <b>↗</b></button></div></article>
+        <article class="burger-card featured" data-product="X-Bacon"><div class="card-glow"></div><div class="burger-image" style="background-image:url('https://images.unsplash.com/photo-1553979459-d2229ba7433b?auto=format&fit=crop&w=700&q=85')"></div><div class="burger-info"><span class="burger-tag">MAIS PEDIDO</span><h3>X-Bacon</h3><p>Blend artesanal · bacon crocante · cheddar</p><button type="button">Ver análise <b>↗</b></button></div><span class="featured-stamp">★ favorito</span></article>
+        <article class="burger-card" data-product="Veggie"><div class="card-glow"></div><div class="burger-image" style="background-image:url('https://images.unsplash.com/photo-1520072959219-c595dc870360?auto=format&fit=crop&w=700&q=85')"></div><div class="burger-info"><span class="burger-tag">LEVE &amp; DELICIOSO</span><h3>Veggie</h3><p>Legumes grelhados · folhas frescas · aioli</p><button type="button">Ver análise <b>↗</b></button></div></article>
+      </div>
+    </section>
+
+    <section class="panel filters" aria-labelledby="filtros-titulo">
+      <div class="section-heading"><div><h2 id="filtros-titulo">Filtros</h2><p>Combine período, categoria e região para investigar os resultados.</p></div><button id="clearFilters" class="button secondary" type="button">Limpar filtros</button></div>
+      <div class="filter-grid">
+        <label>Data inicial<input id="dateStart" type="date"></label>
+        <label>Data final<input id="dateEnd" type="date"></label>
+        <label>Categoria<select id="categoryFilter"><option value="">Todas</option></select></label>
+        <label>Região<select id="regionFilter"><option value="">Todas</option></select></label>
+        <label class="search-field">Pesquisar na tabela<input id="searchInput" type="search" placeholder="produto, categoria ou ID"></label>
+      </div>
+      <div class="quick-periods" aria-label="Atalhos de período"><span>Período rápido:</span><button type="button" data-months="3">Últimos 3 meses</button><button type="button" data-months="6">Últimos 6 meses</button><button type="button" data-months="12">Todos os meses</button></div>
+      <div class="actions"><label class="button primary file-button">Importar CSV<input id="csvInput" type="file" accept=".csv,text/csv"></label><button id="exportCsv" class="button secondary" type="button">Exportar filtrados</button><span id="validationMessage" class="validation" role="status"></span></div>
+    </section>
+
+    <section class="metrics" aria-label="Indicadores"><article class="metric"><span>Faturamento total</span><strong id="totalRevenue">R$ 0,00</strong><small>das vendas filtradas</small></article><article class="metric"><span>Quantidade de vendas</span><strong id="salesCount">0</strong><small>IDs únicos</small></article><article class="metric"><span>Unidades vendidas</span><strong id="unitsCount">0</strong><small>itens</small></article><article class="metric"><span>Ticket médio</span><strong id="averageTicket">R$ 0,00</strong><small>faturamento ÷ vendas</small></article></section>
+    <div id="insight" class="insight" role="status"></div>
+    <section class="intel-grid" aria-label="Inteligência de vendas"><article class="intel-card"><span class="intel-icon">🏆</span><div><small>Produto campeão</small><strong id="topProduct">—</strong><p id="topProductValue">—</p></div></article><article class="intel-card"><span class="intel-icon">◷</span><div><small>Mês mais forte</small><strong id="topMonth">—</strong><p id="topMonthValue">—</p></div></article><article class="intel-card"><span class="intel-icon">⌁</span><div><small>Itens por venda</small><strong id="itemsPerSale">—</strong><p>média de unidades por pedido</p></div></article><article class="intel-card"><span class="intel-icon">✦</span><div><small>Dia campeão</small><strong id="topDay">—</strong><p id="topDayValue">maior faturamento diário</p></div></article></section>
+
+    <section class="charts"><article class="panel chart-card"><div class="card-heading"><h2>Faturamento mensal</h2><span>R$ por mês</span></div><div class="chart-wrap"><canvas id="monthlyChart" aria-label="Linha do faturamento mensal"></canvas></div></article><article class="panel chart-card"><div class="card-heading"><h2>Faturamento por categoria</h2><span>R$ por categoria</span></div><div class="chart-wrap"><canvas id="categoryChart" aria-label="Barras de faturamento por categoria"></canvas></div></article><article class="panel chart-card full"><div class="card-heading"><h2>Faturamento por região</h2><span>R$ por região</span></div><div class="chart-wrap"><canvas id="regionChart" aria-label="Barras de faturamento por região"></canvas></div></article></section>
+
+    <section class="panel table-card"><div class="section-heading"><div><h2>Registros filtrados</h2><p id="recordCount">0 registros exibidos</p></div><label class="sort-label">Ordenar por<select id="sortSelect"><option value="data-desc">Data (mais recente)</option><option value="data-asc">Data (mais antiga)</option><option value="revenue-desc">Faturamento (maior)</option><option value="revenue-asc">Faturamento (menor)</option><option value="produto-asc">Produto (A–Z)</option></select></label></div><div class="table-scroll"><table><thead><tr><th><button class="sort-button" data-sort="id_venda">ID</button></th><th><button class="sort-button" data-sort="data">Data</button></th><th>Produto</th><th>Categoria</th><th>Região</th><th>Qtd.</th><th>Preço unit.</th><th>Faturamento</th></tr></thead><tbody id="tableBody"></tbody></table><div id="emptyState" class="empty" hidden>Nenhum registro corresponde aos filtros atuais.</div></div></section>
+    <footer>Os dados iniciais são fictícios e servem para demonstração. A leitura e o tratamento do CSV acontecem localmente no navegador.</footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.3/papaparse.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
